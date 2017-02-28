@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner recipes</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/myStyles.css" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+	<div class="container-fluid">
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+	      <!-- Brand and toggle get grouped for better mobile display -->
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar2" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+	        <a class="navbar-brand" href="index.html">Home</a></div>
+	      <!-- Collect the nav links, forms, and other content for toggling -->
+	      <div class="collapse navbar-collapse" id="defaultNavbar2">
+	        <ul class="nav navbar-nav">
+            <li id="cookieUsername"></li>
+	          <li><a href="http://www.bordbia.ie/Pages/Default.aspx">Bord Bia</a></li>
+            </ul>
+	        <ul class="nav navbar-nav navbar-right">
+	          <li><a href="https://www.fsai.ie/">Safe Food</a></li>
+              <li><span><img src="images/shoplist.png"><h3 id="cart">0</h3></span></li>
+	          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages<span class="caret"></span></a>
+	            <ul class="dropdown-menu">
+	              <li><a href="lunch.html">Lunch</a></li>
+	              <li><a href="dessert.html">Dessert</a></li>
+	              <li role="separator" class="divider"></li>
+	              <li><a href="shoplist.html">Shopping list</a></li>
+                <li><a href="login.php">logout</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+	      <!-- /.navbar-collapse -->
+        </div>
+	    <!-- /.container-fluid -->
+      </nav>
+<article class="mainHeader">
+  <h1>Below is a list of recipes for Dinner. Simply click on the ingredients you need to add them to your cart.</h1>
+</article>
+<div class="container-fluid">
+<div class="col-md-4">
+<img class="imgRecipe" src="images/chickenCurry.png" alt="Chicken curry">
+        <div class="caption">
+      	<h2>Chicken curry with rice</h2>
+      	<p>This coconut-rich, slow-cooked curry is a doddle to prepare for the family and full of kid-friendly vegetables.</p>
+        <div class="text-left">
+        <h3>Ingredients</h3>
+        <ul>
+        	<li><a onclick="add('onion')">2 onions, quartered</a></li>
+            <li><a onclick="add('ginger')">20g/¾oz fresh root ginger, peeled, coarsely grated</a></li>
+            <li><a onclick="add('garlic')">6 garlic cloves, peeled</a></li>
+            <li><a onclick="add('curry')">2 tbsp medium curry powder</a></li>
+            <li><a onclick="add('chicken')">8 chicken thighs, boned, skinned, halved</a></li>
+            <li><a onclick="add('potatoes')">500g/1lb 2oz large waxy potatoes, peeled, cut into 3cm/1¼in chunks</a></li>
+            <li><a onclick="add('carrot')">3 carrots, peeled, sliced into 1.5cm/½in rounds</a></li>
+            <li><a onclick="add('coconut')">400ml tin coconut milk</a></li> 
+        </ul>
+        <h3>Method</h3>
+        <ol>
+        	<li>Put all of the curry paste ingredients in a food processor and blend. You will need to remove the lid and push the mixture down a couple of times using a rubber spatula.
+Heat a large, non-stick frying pan over a medium heat. Spoon in the curry paste and cook for 2-3 minutes, stirring constantly, until fragrant.
+</li><br>
+            <li>Season the chicken thighs on all sides with lots of pepper then add to the pan, stir well and cook for 2-3 minutes, turning once or twice until they are pale golden-brown.
+Stir in 100ml/3½fl oz water and bring the mixture to the boil. Transfer to the slow cooker and add the potatoes and carrots.
+</li><br>
+            <li>In a bowl, Stir in the coconut milk and pour over the curry. Stir well to combine. Cover and cook on high for 3 hours, or until the chicken and vegetables are tender and the sauce has thickened. Just before the end of the cooking time, stir in the green beans.</li>
+        </ol>            
+        </div>
+      </div>
+</div>
+<div class="col-md-4">
+<img class="imgRecipe" src="images/steakChips.png" alt="Steak Chips">
+        <div class="caption">
+          <h2>Perfect steak and chips</h2>
+          <p>This simple classic takes skill to get exactly right. Click to show you how, with precision-cooked meat.</p>
+        <div class="text-left">
+        <h3>Ingredients</h3>
+        <ul>
+        	<li><a onclick="add('vegetableOil')">2 litres/3½ pints vegetable oil</a></li>
+            <li><a onclick="add('potatoes')">1kg/2lb 4oz floury potatoes, such as Maris Piper, cut into chips</a></li>
+            <li><a onclick="add('sirloin')">4 x 275g/10oz sirloin or rib-eye steaks, at room temperature</a></li>
+            <li><a onclick="add('groundnutOil')">splash groundnut oil, or similar flavourless oil</a></li>
+            <li><a onclick="add('pepper')">salt and freshly ground black pepper</a></li>
+        </ul>
+        <h3>Method</h3>
+        <ol>
+        	<li>For the chips, heat the oil in a deep-fat fryer set to 160C. Alternatively, heat the oil in a deep-sided, heavy-based saucepan until a breadcrumb sizzles and turns golden-brown when dropped into it. Transfer the chips to a large pan of salted water. Bring the water to the boil, then reduce the heat slightly and simmer the chips until just tender. Drain well and set aside to cool and dry further. When the chips have cooled and dried, carefully lower batches of them into the hot oil. Cook for 6-8 minutes, or until pale golden-brown. Remove the chips from the hot oil using a slotted spoon and transfer to a bowl. Increase the temperature of the oil to 190C.</li><br>
+            <li>Heat the oil in a heavy-based, ovenproof frying pan over a high heat until it is smoking hot. Season the steaks with salt. When the pan is hot, add the steaks and fry for 2-3 minutes on each side, or until the meat is dark golden-brown on both sides (you may need to do this in batches). Add the butter to the pan and transfer to the oven, Roast the meat for 8 minutes or until cooked to your liking.</li>
+        </ol>            
+        </div>
+      </div>
+</div>
+<div class="col-md-4">
+<img class="imgRecipe" src="images/salmon.png" alt="salmon">
+        <div class="caption">
+          <h2>Poached salmon & asparagus with wild garlic mayonnaise</h2>
+          <p>Bake this fabulous fish dish en papillote for a smart, seasonal main course that looks spectacular when served at the table</p>
+        <div class="text-left">
+        <h3>Ingredients</h3>
+        <ul>
+        	<li><a onclick="add('asparagus')">about 450g fat asparagus spears (after snapping off woody ends)</a></li>
+            <li><a onclick="add('salmon')">1 skinless side of salmon</a></li>
+            <li><a onclick="add('lemons')">2 unwaxed lemons, 1 zested and juiced</a></li>
+            <li><a onclick="add('potatoes')">50g butter and cooked new potatoes, to serve</a></li>
+            <li><a onclick="add('eggs')">3 large egg yolks</a></li>
+            <li><a onclick="add('sunflowerOil')">200ml sunflower oil & 200ml rapeseed oil</a></li>
+            <li><a onclick="add('vinegar')">1 tbsp white wine vinegar</a></li>
+        </ul>
+        <h3>Method</h3>
+        <ol>
+        	<li>For the mayonnaise, Place the egg yolks and mustard in a mini food processor. Pulse until finely chopped, then scrape into a big mixing bowl. Pour the oils into a jug. Whisk the yolks mixture with an electric whisk. Slowly add the oil, first a drip at a time, then in a steady, thin drizzle – the mixture should thicken and start to look like mayonnaise. If at any point it starts to look greasy, add 1 tbsp cold water and continue whisking until all the oil has been added and you have a thick mayonnaise. Add the vinegar and season with salt and white pepper. Lay cling film directly onto the surface of the mayonnaise so a skin doesn’t form, then chill. Will keep for 3 days in the fridge.
+</li><br>
+            <li>Heat oven to 180C/160C fan/gas 4. Put a large sheet of baking parchment in a large roasting tin and arrange the asparagus in a line that’s long enough for the salmon to sit on. Season, put the salmon on top and scatter over the lemon zest. Thinly slice the remaining lemon and put the slices on top of the salmon with the butter. Pour over the lemon juice and season. Bring the sides of the parchment up and over the salmon and scrunch together to seal, creating a tent over the fish. Bake in the oven for 30 mins.
+
+Bring the roasting tin to the table, open the parcel, and serve with a bowl of wild garlic mayonnaise and some new potatoes on the side.</li>
+        </ol>            
+        </div>
+      </div>
+</div>
+</div>
+</div>
+<div>
+	  <footer>&copy; Copyright 2016</footer>
+    </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+    <script src="js/myjs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  </body>
+</html>

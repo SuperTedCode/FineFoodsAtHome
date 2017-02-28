@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* Header text on each page */
+.mainHeader {
+	width: 75%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+/* Nav bar color */
+.container-fluid .navbar.navbar-default {
+	background-color: #96E1FC;
+}
+footer {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #96E1FC;
+}
+h1, h2, h3, p {
+	text-align: center;
+}
+body {
+	background-color: #66BEFF;
+}
+a:hover {
+	text-decoration: underline;
+	text-transform: capitalize;
+	color: #B90818;
+	cursor: pointer;
+}
+
+/* Setting image for div below navbar */
+.container-fluid #homeBanner {
+	background-image: url(../images/home_banner1.jpg);
+	width: 100%;
+	height: 250px;
+	background-position: center center;
+	background-size: cover;
+}
+/* set images for Lunch/Dinner/Desert pages*/
+.container-fluid .col-md-4 .imgRecipe {
+	width: 100%;
+	height: 250px;
+}
+/* Div wrap on Ingredients/Methods */
+.col-md-4 .caption .text-left {
+	background-color: #F8F8B9;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+/* Wrap on each thumbnail on home page */
+.row .col-md-4 .thumbnail {
+	background-color: #F8F8B9;
+	border-radius: 20px;
+}
+/* wrap on img in home page thumbnails */
+.col-md-4 .thumbnail img {
+	border-radius: 20px;
+}
+/* style for videos table on home page */
+.container-fluid .table-responsive .table {
+	background-color: #F8F8B9;
+	border-radius: 20px;
+}
+.vid {
+	width: 300px;
+	height: 250px;
+	align-content:center;
+}
+.table tbody tr td {
+	border: none;
+}
+/* Set background and color for basket count */
+li span #cart {
+	background-color: #F8F8B9;
+	float: right;
+}
+/* style for user inputs for shopping list */
+.container-fluid #input {
+	max-width: 50%;
+	margin-left: 30%;
+}
+/* style for shopping list div */
+#shoppingListDive {
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F8F8B9;
+}
+/* Side nav for content scroling */
+nav.page-navigation {
+    width: 130px;
+    background-color: #96E1FC;
+    position: fixed;
+	border-radius: 20px;
+    top:10%;
+    left:0;
+	/* index set hightest to apear above all other divs */
+	z-index:9;
+}
+nav.page-navigation li {
+    width: 100%;
+}
+nav.page-navigation a {
+    padding: 0.6em 10%;
+    width: 130px;
+}
+
+#validate {
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1em;
+	color: #008040;
+	background: #FFFFFF;
+	border:1px dotted #004080;
+}

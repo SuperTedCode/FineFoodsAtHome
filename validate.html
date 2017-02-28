@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credit Card validation</title>	
+	<link rel="stylesheet" href="includes/style.css" type="text/css" media="screen" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/jquery.creditCardValidator.js"></script>
+	<script src="js/cc_validator.js" defer></script>
+	
+
+</head>
+<body>
+<div class="container-fluid">
+	<div id="header"></div>
+	<div id="navigation">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="shoplist.html">Review orders</a></li>
+			<li><a href="login.php">logout</a></li>
+		</ul>
+	</div>
+	<div id="content"><!-- Start of the page-specific content. -->
+	
+	<h1 id="cookieUsernameCreditCard"></h1><!--Event listener -->
+	<h1>congratulations, You are now ready to make payment for your order</h1>
+	<form>
+		<p>Enter credit card number in field below</p>
+		 <p><input id="cc_number" value="5105105105105100"/><br></p>
+		 <p><button type="button" class="Confirm">Confirm</button></p>	
+	</form>
+	</div>
+	
+	<div id="footer">
+		<p>Copyright &copy; <a href="#">Registration</a> 2016</p>
+	</div>
+</div> <!--Close <div class="container-fluid"> -->
+	
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
